@@ -4,10 +4,11 @@
              xmlns:local="clr-namespace:NazarenoAnchieta"
              x:Class="NazarenoAnchieta.MainPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Aqua">
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entrada"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
